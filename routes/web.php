@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/','App\Http\Controllers\DataController@index');
+Route::post('/','App\Http\Controllers\DataController@save');
